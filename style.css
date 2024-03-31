@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+#info{
+    text-align: center;
+}
+
+body {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    font-size: x;
+    font-family: "Montserrat", sans-serif;;
+    background-color: rgb(17, 50, 94);
+}
+
+body > form{
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: 0px auto;
+}
+
+#email, #senha{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin: 0 auto ;
+    margin: 10px auto 10px auto;
+    display: flex;
+    width: 270px;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
+    border-radius: 3px;
+    text-align: left;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.377);
+}
+#emailReg, #senhaReg{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin: 0 auto ;
+    margin: 10px auto 10px auto;
+    display: flex;
+    width: 270px;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
+    border-radius: 3px;
+    text-align: left;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.377);
+}
+
+#logar{
+    background-image: linear-gradient(to right,rgb(94, 157, 240), rgb(17, 50, 94));
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: rgb(17, 50, 94);
+    color: white;
+    margin: auto;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid rgb(211, 211, 211) 1px;
+}
+#registrar{
+    background-image: linear-gradient(to right,rgb(94, 157, 240), rgb(17, 50, 94));
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: rgb(17, 50, 94);
+    color: white;
+    margin: auto;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid rgb(211, 211, 211) 1px;
+}
+#em, #se{
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.507);
+}
+#criar{
+    font-weight: 20px;
+    color: rgb(17, 50, 94);
+}
+
+#criar:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
